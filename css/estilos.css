@@ -117,3 +117,17 @@ body{
     cursor: pointer;
     background-color: var( --color-primario2);
 }
+
+.navbar-nav .enlaces {
+    /* la clase navbar-nav ya venia con el código bootstrap */
+    height: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    /* quita la decoracion a los enlaces de la class enlaces*/
+    color: var(--texto-blanco);
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 8px 8px 10px 8px;
+    /* espacio interno, se verá con el efecto hover */
+}
